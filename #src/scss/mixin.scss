@@ -1,0 +1,5 @@
+@mixin flex($fl, $jcc, $alic){
+    display: $fl;
+    justify-content: $jcc;
+    align-items: $alic;
+}

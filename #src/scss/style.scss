@@ -1,0 +1,24 @@
+@import "color.scss";
+@import "mixin.scss";
+
+%tpltest {
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+}
+
+.main {
+    background-color: aquamarine;
+    @include flex(flex, center, center);
+    &:hover {
+    background-color: $color-1;
+    }
+    p {
+    @extend %tpltest;
+    color: $color-2;
+    display: flex;
+    &:hover {
+        color: aqua;
+    } 
+    }
+}

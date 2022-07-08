@@ -1,0 +1,25 @@
+.main p {
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+
+.main {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main:hover {
+  background-color: #fff;
+}
+
+.main p {
+  color: #000;
+  display: flex;
+}
+
+.main p:hover {
+  color: aqua;
+}
